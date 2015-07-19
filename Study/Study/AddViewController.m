@@ -98,6 +98,28 @@
 
 
 - (IBAction)addAnotherAction {
+    
+    if ([self.delegate respondsToSelector:@selector(addSubject:didAdd:)]) {
+        SubjectModel *subModle = [[SubjectModel alloc] init];
+        subModle.subject = self.subField.text;
+        subModle.teacher = self.teacherField.text;
+        subModle.room = self.roomField.text;
+        subModle.date = self.DateField.text;
+        subModle.time = self.timeField.text;
+        [self.delegate addSubject:self didAdd:subModle];
+        
+        
+        self.subField.text = @"";
+        self.teacherField.text = @"";
+        self.roomField.text = @"";
+        self.DateField.text = @"";
+        self.timeField.text =@"";
+    }
+    
+    
+    
+    
+    
 }
 
 

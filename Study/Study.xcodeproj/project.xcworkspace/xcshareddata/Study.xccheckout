@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>34CFDD22-1BD8-45F6-8E2A-E1855A0D9BA3</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>Study</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>D013E0A8DC794BCA4D15ED51D7CF9FDA760BCA5F</key>
 		<string>https://github.com/sid9slove/ProjectTest.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Study/Study.xcodeproj/project.xcworkspace</string>
+	<string>Study/Study.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>D013E0A8DC794BCA4D15ED51D7CF9FDA760BCA5F</key>
